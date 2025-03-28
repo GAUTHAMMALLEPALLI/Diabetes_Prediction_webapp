@@ -32,8 +32,7 @@ def diabetes_prediction(input_data):
 def main():
     
     #Giving the title
-    st.title('Diabetes prediction System by Gautham Mallepalli')
-    st.image("D:/project\GAUTHAM_PRO/diabetes_image.jpg")  
+    st.title('Diabetes prediction System by Gautham Mallepalli') 
     #getting the input data from the user
     Pregnancies=st.text_input('Enter Number of Pregnancies')
     Glucose=st.text_input('Enter the Glucose level')
